@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-4PFGB10 CarSalesDW"
+  DTS:DTSID="{A6E62F01-664B-40E2-9529-18567B0BDEF2}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=CarSalesDW;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-{A6E62F01-664B-40E2-9529-18567B0BDEF2}localhost.Car_Sales_Store_DW;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

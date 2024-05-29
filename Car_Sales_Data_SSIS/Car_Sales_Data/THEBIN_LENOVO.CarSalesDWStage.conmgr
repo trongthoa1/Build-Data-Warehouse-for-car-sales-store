@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="THEBIN_LENOVO.CarSalesDWStage"
+  DTS:DTSID="{4292E7CF-A124-4058-AFF6-2F0E2746D14D}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=THEBIN\LENOVO;Initial Catalog=CarSalesDWStage;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-CarSalesDataWithSSIS-{4292E7CF-A124-4058-AFF6-2F0E2746D14D}THEBIN\LENOVO.CarSalesDWStage;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
